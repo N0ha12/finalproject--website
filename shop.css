@@ -1,0 +1,179 @@
+@media screen and (max-width: 600px){
+    .column.side, .column.middle{width: 100%}
+}
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    
+}
+body{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.9)50%,rgba(0,0,0,0.9)50%),url(Mobile.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100hv;
+    align-items: center;
+    justify-content: center;
+    background-attachment: scroll;
+    
+   
+}
+.nav{
+    width: 1200px;
+    height: 75px;
+    margin: NONE;
+    background-image: linear-gradient(rgba(22, 22, 22, 0.8), rgba(0,0,0,0));
+}
+.icon{
+    width: 200px;
+    float: left;
+    height;70px;
+}
+.mylogo{
+    color:white;
+    font-size: 25px;
+    font-family: cursive;
+    padding-left:17px;
+    padding-top: 15px;
+    float: left;
+}
+.one{
+    color: deeppink;
+}
+.two{
+    color: deepskyblue;
+}
+.three{
+    color:yellow;
+}
+
+.four{
+    color:lawngreen;
+}
+.five{
+    color:orangered;
+}
+.six{
+color:mediumpurple;}
+.seven{
+color:aqua;}
+.list{
+width:400px;
+    float:left;
+    height:70px;   
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    transition: 0..4s ease-in-out;
+}
+ul li a:hover{
+    
+    color:yellow;
+}
+.src{
+width: 330px;
+    float: left;
+    margin-left: 270px;
+    
+}
+
+.serc{
+    font-family: cursive;
+    width: 200px;
+    height:40px;
+    background: transparent;
+    border: 1px solid yellow;
+    margin-top: 17px;
+    color: yellow;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;  
+  
+  
+}
+
+.btn{
+    
+    width: 100px;
+    height: 44px;
+    background-color:yellow;
+    border: 2px solid black;
+    margin-top: 15px;
+    color: black;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-left:none;
+    cursor: pointer;
+    font-family: cursive;
+}
+::placeholder{
+color: aliceblue;}
+.container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+.container .card{
+    width:230px;
+    overflow:hidden;
+    padding-top: 10px;
+    border: 2px solid black;
+    border-radius: 13px;
+    box-shadow: 0 0 7px rgba(0, 0, 0 ,0.8);
+    text-align: center;
+    background-color: white;
+    margin: 1px;
+}
+.container .card .products{
+    width:230px;
+    margin:20px auto; 
+    
+}
+.container .card .products img{
+    width:100%;
+transition: 0.4s;}
+.container .card .products img:hover{
+   transform: scale(1.2)}
+.h4{
+    font-size: 18px;
+    
+}
+.container .card .btnn button{
+    width:100%;
+    padding: 5px;
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+    border: 1px solid;
+    font-size: 17px;
+    border-radius: 0 0 15px 15px;
+    
+    
+}
+   
+    

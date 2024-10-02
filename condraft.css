@@ -1,0 +1,179 @@
+@media screen and (max-width: 600px){
+    .column.side, .column.middle{width: 100%}
+}
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%), url(Mobile.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 30hv;
+   
+}
+.nav{
+    width: 1200px;
+    height: 75px;
+    margin: none;
+    background-image: linear-gradient(rgba(22, 22, 22, 0.8), rgba(0,0,0,0));
+}
+.icon{
+    width: 200px;
+    float: left;
+    height;70px;
+}
+.mylogo{
+    color:white;
+    font-size: 25px;
+    font-family: cursive;
+    padding-left:17px;
+    padding-top: 15px;
+    float: left;
+}
+.one{
+    color: deeppink;
+}
+.two{
+    color: deepskyblue;
+}
+.three{
+    color:yellow;
+}
+
+.four{
+    color:lawngreen;
+}
+.five{
+    color:orangered;
+}
+.six{
+color:mediumpurple;}
+.seven{
+color:aqua;}
+.list{
+width:400px;
+    float:left;
+    height:70px;   
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    transition: 0..4s ease-in-out;
+}
+ul li a:hover{
+    
+    color:yellow;
+}
+.src{
+width: 330px;
+    float: left;
+    margin-left: 270px;
+    
+}
+
+.serc{
+    font-family: cursive;
+    width: 200px;
+    height:40px;
+    background: transparent;
+    border: 1px solid black;
+    margin-top: 17px;
+    color: yellow;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;  
+  
+  
+}
+
+.btn{
+    
+    width: 100px;
+    height: 40px;
+    background-color:yellow;
+    border: 2px solid black;
+    margin-top: 17px;
+    color: black;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-left:none;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+::placeholder {
+color: grey;}
+.contbox{
+    width: 350px;
+    height: 450px;
+    margin-top: 100px;
+    display:block;
+    padding: 5px 31px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    background-size:contain; 
+   background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    box-shadow: 0.1px 2px 5px 2px grey;
+}
+.content input[type=text], .content input[type=email],.content input[type=password]
+{
+  width: 100%;
+  padding: 5px;
+  margin:1px 0 8px 0;
+   border: inset yellow; 
+}
+.content .sub {
+  background-color:yellow;
+  color: black;
+  font-size:15px;
+  width: 100%;
+ padding-top: 11px;
+    padding-bottom: 11px;
+   margin-left: 6px;
+  border-radius: 20;
+  opacity: 0.9;
+  cursor:auto;
+    
+}
+
+h1{
+    
+    font-size: 40px;
+    color: yellow;
+}
+p{
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family:serif;
+    margin-top: 8px;
+    float: left;
+    color:grey; 
+    }
+.sub{border:solid;
+    
+    font-size: 12px;
+			border-color:beige;
+    	border-radius: 5px;
+ 
+}
